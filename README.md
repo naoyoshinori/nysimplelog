@@ -73,7 +73,7 @@ logger = initialize_simple_logger(
 | datefmt | Date format. Default: ISO-8601 (e.g., `"2023-05-27T07:20:32.798+09:00"`). |
 | tz | Timezone for log timestamps (e.g., "UTC", "Asia/Tokyo"). Default: None (uses local time). |
 | formatter | Custom formatter. Default: None (uses ISO8601_Formatter). |
-| level | Logger level (int or str). Default: `logging.WARNING`. |
+| level | Logger level (int or str). Default: `logging.INFO`. |
 | stream_handler_level | Stream handler level. Default: if `None`, the parameter `level` is used. |
 | file_handler_level | File handler level. Default: if `None`, the parameter `level` is used. |
 | maxBytes | Max file size before rotation. Default: `10MB`. |
