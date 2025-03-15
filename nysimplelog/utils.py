@@ -112,7 +112,7 @@ def initialize_simple_logger(
     mylogger = getLogger(__name__)
     if mylogger.handlers == []:
         myhandler = logging.StreamHandler()
-        myhandler.setFormatter(ISO8601_Formatter(DEFAULT_FORMAT, tz="UTC"))
+        myhandler.setFormatter(ISO8601_Formatter(DEFAULT_FORMAT, tz=tz))
         myhandler.setLevel(logging.NOTSET)
         mylogger.addHandler(myhandler)
 
