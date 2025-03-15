@@ -27,4 +27,4 @@ Homepage = "https://github.com/naoyoshinori/nysimplelog"
 
 [tool.pytest.ini_options]
 minversion = "7.0"
-addopts = "-ra -v"
+addopts = ["-ra", "-v"]
