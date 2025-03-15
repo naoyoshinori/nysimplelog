@@ -52,7 +52,7 @@ def initialize_simple_logger(
     datefmt: str = None,
     tz: str = None,
     formatter: logging.Formatter = None,
-    level: int | str = logging.WARNING,
+    level: int | str = logging.INFO,
     stream_handler_level: int | str = None,
     file_handler_level: int | str = None,
     maxBytes: int = DEFAULT_MAX_BYTES,
